@@ -1,0 +1,133 @@
+#logo{
+    padding: 18px 15px;
+}
+
+#logo img{
+    width:150px;
+}
+
+@media (min-width: 768px) {
+    #logo{
+        padding: 15px 10px 10px 15px;
+    }
+    #logo img{
+        width:270px;
+    }
+}
+
+#content{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    min-height: 100%;
+}
+
+.header{color: #002369;}
+.subHeader{color: #002369;font-weight:bold;padding:0;margin:0;}
+.sectionHeader{margin:0 0 15px 0;}
+
+/* Общие классы */
+
+.pageHeaderIMG{
+    position:relative;
+}
+
+.pageHeaderIMG img{
+    max-width: 100%;
+}
+
+@media (min-width: 992px) {
+    .img-full-width-background:after {
+        content: "";
+        background: url(/img/img-fullwidth-svg.svg) no-repeat right;
+        z-index: 1;
+        height: 3rem;
+        position: absolute;
+        display: block;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.pointer{cursor:pointer;}
+
+.marginRight5{margin-right:5px;}
+
+/* HOME */
+
+@media (max-width: 991px){
+    #mainCarousel .carousel-control .icon-prev,
+    #mainCarousel .carousel-control .icon-next,
+    #mainCarousel .carousel-control .glyphicon-chevron-left,
+    #mainCarousel .carousel-control .glyphicon-chevron-right {
+        top: 35%;
+    }
+}
+
+.image-slider-overlay {
+    padding: 1.25rem;
+    text-align: left;
+}
+
+@media (min-width: 992px){
+    .image-slider-overlay {
+        position: absolute;
+        left: 5rem;
+        top: 5rem;
+        background: url(/img/overlay-background.svg) no-repeat bottom right;
+        background-size: 750px;
+        right: 50%;
+    }
+}
+
+.carouselTextHeader {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+@media (min-width: 768px) {
+    .carouselTextHeader {
+        font-size: 28px;
+    }
+}
+
+#mainCarousel .carousel-indicators{
+    bottom: -35px;
+}
+#mainCarousel .carousel-indicators li {
+    border-color: #232a78;
+}
+#mainCarousel .carousel-indicators li:hover {
+    border-color: #424ed7;
+}
+#mainCarousel .carousel-indicators .active {
+    background-color: #232a78;
+}
+
+#mainCarousel .carousel-control {
+    background: none;
+}
+
+#mainCarousel a:hover{
+    text-decoration: none;
+}
+
+.bigMenuElement{
+    margin-top:30px;
+}
+
+.bigMenuElement img{
+    max-width: 100%;
+}
+
+/* PRODUCTION */
+
+.productionHrefRow{
+    margin-top:-20px;
+}
+
+/* 404 */
+.text404{
+    font-size:200px;
+}
