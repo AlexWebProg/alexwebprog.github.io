@@ -23,7 +23,7 @@ switch ($environment) {
     break;
 
     case 'production':
-        $baseurl = 'http://SexyGrandma.github.io/';
+        $baseurl = 'https://SexyGrandma.github.io/';
     break;
 
     case 'testing':
