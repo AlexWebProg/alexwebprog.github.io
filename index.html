@@ -1,34 +1,70 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/jumbotron-narrow.css" rel="stylesheet"/>
     <title>SexyGrandma.github.io | My projects</title>
 </head>
 <body>
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills pull-right">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="https://github.com/SexyGrandma">GitHub</a></li>
+                <li role="presentation"><a href="http://www.ze3.ru">Demos</a></li>
+            </ul>
+        </nav>
+        <h3 class="text-muted">My projects</h3>
+    </div>
 
-    <h1>My projects</h1>
-    <hr/>
+    <div class="jumbotron">
+        <h1>Redirect</h1>
+        <p class="lead">This function allows you to redirect to the page passed in the GET-parameter.</p>
+        <p><a class="btn btn-lg btn-success" href="http://www.ze3.ru/redirect/" role="button">Try now</a></p>
+    </div>
 
-    <h3>Redirect</h3>
-    <p>This function allows you to redirect to the page passed in the GET-parameter.</p>
-    <p><a href="http://www.ze3.ru/redirect/">Try now</a></p>
+    <div class="row marketing">
+        <div class="col-lg-6">
+            <h4><a href="http://www.ze3.ru/redirect/">Demo</a></h4>
+            <p>You can find a site, for example, entered in a free form in a text input field, generate an external link to this site and immediately redirect to this site.</p>
+        </div>
 
-    <h4><a href="http://www.ze3.ru/redirect/">Demo</a></h4>
-    <p>You can find a site, for example, entered in a free form in a text input field, generate an external link to this site and immediately redirect to this site.</p>
+        <div class="col-lg-6">
+            <h4><a href="https://github.com/SexyGrandma/redirect">View on GitHub</a></h4>
+            <p>Also you can check the server headers returned when accessing a given site. <a href="http://www.ze3.ru/redirect/checkHeaders.php">Usage: http://www.ze3.ru/redirect/checkHeaders.php</a></p>
+        </div>
+    </div>
 
-    <h4><a href="https://github.com/SexyGrandma/redirect">View on GitHub</a></h4>
-    <p>Also you can check the server headers returned when accessing a given site. Usage: <a href="http://www.ze3.ru/redirect/checkHeaders.php">http://www.ze3.ru/redirect/checkHeaders.php</a></p>
+    <hr/><br/>
 
-    <hr/>
-    <h3>pictureViewer</h3>
-    <p>This is a simple light-weight picture viewer for web shops.</p>
-    <p><a href="http://www.ze3.ru/pictureViewer/">Try now</a></p>
+    <div class="jumbotron">
+        <h1>pictureViewer</h1>
+        <p class="lead">This is a simple light-weight picture viewer for web shops.</p>
+        <p><a class="btn btn-lg btn-success" href="http://www.ze3.ru/pictureViewer/" role="button">Try now</a></p>
+    </div>
 
+    <div class="row marketing">
+        <div class="col-lg-6">
+            <h4><a href="http://www.ze3.ru/pictureViewer/">Demo</a></h4>
+            <p>Watch the function in action.</p>
+        </div>
 
-    <h4><a href="http://www.ze3.ru/pictureViewer/">Demo</a></h4>
-    <p>Watch the function in action.</p>
+        <div class="col-lg-6">
+            <h4><a href="https://github.com/SexyGrandma/pictureViewer">View on GitHub</a></h4>
+            <p>Take a look under the hood of this feature.</p>
+        </div>
+    </div>
 
-    <h4><a href="https://github.com/SexyGrandma/pictureViewer">View on GitHub</a></h4>
-    <p>Take a look under the hood of this feature.</p>
+    <footer class="footer">
+        <p>&copy; 2016 SexyGrandma.github.io.</p>
+    </footer>
 
+</div> <!-- /container -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
