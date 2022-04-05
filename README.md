@@ -13,5 +13,5 @@ This function allows you to make a picture of pricelist contains your goods in o
 <a href="http://www.ze3.ru/avgPrice/">Demo</a> | <a href="https://github.com/SexyGrandma/avgPrice">GitHub</a>
 
 <h4>GmailAPI</h4>
-Dealing with Gmail API for email management
+Dealing with Gmail API for email management.
 <a href="https://github.com/SexyGrandma/GmailAPI">GitHub</a>
