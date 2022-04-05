@@ -14,4 +14,4 @@ This function allows you to make a picture of pricelist contains your goods in o
 
 <h4>GmailAPI</h4>
 Dealing with Gmail API for email management.
-<a href="https://github.com/SexyGrandma/GmailAPI">GitHub</a>
+<a href="https://habr.com/ru/post/516408/">Info</a> | <a href="https://github.com/SexyGrandma/GmailAPI">GitHub</a>
