@@ -14,7 +14,7 @@
 
 // smooth scroll
 $(document).ready(function(){
-    $(".navbar .nav-link").on('click', function(event) {
+    $(".navbar .nav-link, .header-content_btn").on('click', function(event) {
 
         if (this.hash !== "") {
 
@@ -35,4 +35,9 @@ $(document).ready(function(){
 $('#nav-toggle').click(function(){
     $(this).toggleClass('is-active')
     $('ul.nav').toggleClass('show');
+});
+$('.nav-toggle').click(function(){
+    if ($(window).width() <= 992) {
+        $('ul.nav').removeClass('show');
+    }
 });
